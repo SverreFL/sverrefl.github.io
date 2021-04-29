@@ -1,1 +1,10 @@
 theme: jekyll-theme-cayman
+
+# Your name to show in the footer
+author: Sverre Falck Langaas
+
+# --- List of links in the navigation bar --- #
+
+navbar-links:
+  Resources:
+    - Test: https://sverrefl.github.io/test
