@@ -2,7 +2,7 @@
 title: test
 --- 
 ### Notater
-En samling av notater som (i hvert fall foreløpig) kun er ment for eget bruk. Jeg forsøker å skrive ned alt som er verdt å huske, slik at jeg slipper å faktisk huske det. Dette prosjektet ble påbegynt våren 2020 slik at det er en del etterslep, men de blir oppdatert fortløpende. 
+En samling av notater som (i hvert fall foreløpig) kun er ment for eget bruk. Jeg forsøker å skrive ned alt som er verdt å huske, slik at jeg slipper å faktisk huske det. Dette prosjektet ble påbegynt våren 2020 slik at det er en del etterslep, men notatene blir oppdatert fortløpende. 
 
 #### Generelt
 - [Notater](main.pdf) som begynner fra sannsynlighetsteori og bygger opp til klassisk statistisk inferens, statistisk læring og økonometri. Det er også noen kapitler om den underliggende matematikken. Innholdet er tatt fra diverse bøker og forelesninger, men de viktigste kildene er nok [Stachurski (2016)](https://johnstachurski.net/emet) og [Angrist & Pischke (2009)](https://www.mostlyharmlesseconometrics.com/). Jeg har forsøkt å frigjøre meg fra originaltekstene for å lage en helhetlig syntese, og kvaliteten på fremstillingen er deretter. Noen av kapitlene er mer fullstendige enn andre. 
