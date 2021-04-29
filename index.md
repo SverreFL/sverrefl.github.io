@@ -1,9 +1,3 @@
----
----
-[Click me](http://www.google.com){: .btn}
-[Click me](http://www.google.com){: .btn}
-[Click me](http://www.google.com){: .btn}
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/SverreFL/sverrefl.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
