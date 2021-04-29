@@ -4,7 +4,12 @@
   {% include head.html %}
 
   <body>
-    {% include page-header.html %}
+    <section class="page-header">
+    <h1 class="project-name">{{ site.title }}</h1>
+    <h2 class="project-tagline">{{ site.tagline }}</h2>
+    <a href="{{ https://sverrefl.github.io/ }}" class="btn">Download Program</a>
+    <a href="{{ https://sverrefl.github.io/ }}" class="btn">View Documentation</a>
+    </section>
     <section class="main-content">
     
       {{ content }}
