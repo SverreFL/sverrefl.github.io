@@ -1,10 +1,10 @@
 theme: jekyll-theme-cayman
-
+baseurl: /prosjekter
 # Your name to show in the footer
 author: Sverre Falck Langaas
 
 # --- List of links in the navigation bar --- #
 
-navbar-links:
-  Resources:
-    - Test: https://sverrefl.github.io/test
+tab_title1: Kinetic
+tab_title2: Melodic
+tab_title3: Foxy
