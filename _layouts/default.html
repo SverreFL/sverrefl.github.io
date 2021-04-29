@@ -5,9 +5,7 @@
 
   <body>
     {% include page-header.html %}
-
-    <section class="main-content">
-      <section class="page-header">
+    <section class="page-header">
         <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
         <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
         {% if site.github.is_project_page %}
@@ -19,7 +17,9 @@
         {% endif %}
         <a href="{{ site.github.releases_url }}" class="btn">Download Program</a>
         <a href="{{ site.github.wiki_url }}" class="btn">View Documentation</a>
-  </section>
+    </section>
+    <section class="main-content">
+    
       {{ content }}
 
       {% include page-footer.html %}
