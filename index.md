@@ -9,7 +9,7 @@ Jeg har laget to webapplikasjoner som visualiserer [data](https://bergenbysykkel
 - [Applikasjon i Panel](https://hypotesetest.herokuapp.com) som interkativt viser hvilke faktorer som påvirker styrken til en hypotesetest om gjennomsnittet i en normalfordeling med kjent varians. 
 
 #### Interaktive visualiseringer i Altair
-Jeg har også laget noen interaktive figurer med data fra [Bildeleringen](https://bildeleringen.no/). Dette er bare html-filer, så i motsetning til applikasjonene over trenger de ikke en aktiv python-kernel; all interaktiviteten blir håndtert av nettleseren lokalt. 
+Jeg har også laget noen interaktive figurer i [Altair](https://altair-viz.github.io/) med data fra [Bildeleringen](https://bildeleringen.no/). Dette er bare html-filer, så i motsetning til applikasjonene over trenger de ikke en aktiv python-kernel; all interaktiviteten blir håndtert av nettleseren lokalt. 
 - [Tidseriedata](figures/tidsserie.html) med antall reiser per dag.
 - [Sammensatt figur](figures/mars.html) som viser antall reiser med de ulike biltypene, samt medianen av kjørelengde og reisetid. Data er fra Mars 2021. 
 
