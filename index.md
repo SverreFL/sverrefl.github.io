@@ -9,6 +9,6 @@ Jeg har laget to webapplikasjoner som visualiserer [data](https://bergenbysykkel
 - [Applikasjon i Panel](https://hypotesetest.herokuapp.com) som interkativt viser hvilke faktorer som påvirker styrken til en hypotesetest om gjennomsnittet i en normalfordeling med kjent varians. 
 
 #### Interaktive visualiseringer i Altair
-[test1](figures/tidsserie.json)
-[test2](figures/mars.json)
+[test1](figures/tidsserie.html)
+[test2](figures/mars.html)
 
