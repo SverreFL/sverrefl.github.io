@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-1248a6033b82d97db8cf27e23207645b"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "brand", "legend": {"labelFontSize": 12, "symbolStrokeWidth": 4, "title": null}, "scale": {"domain": ["Jaguar", "Lexus", "Nissan", "Peugeot", "Skoda", "Toyota"], "range": ["#5778a4", "#f1a2a9", "#e49444", "#d1615d", "#85b6b2", "#6a9f58"]}}, "opacity": {"condition": {"value": 1, "selection": "selector001"}, "value": 0.2}, "tooltip": [{"type": "nominal", "field": "category"}, {"type": "quantitative", "field": "andel"}], "x": {"type": "quantitative", "axis": {"format": "%", "labelAngle": 0, "title": null}, "field": "andel"}, "y": {"type": "nominal", "axis": {"title": null}, "field": "name", "sort": "-x"}}, "selection": {"selector001": {"type": "single", "fields": ["category"], "bind": {"input": "radio", "options": [null, "SUV", "Kombi", "Stor stasjonsvogn", "Sm\u00e5bil", "Varebil", "9-seter", "Minibil", "Stasjonsvogn"], "labels": ["Alle", "SUV", "Kombi", "Stor stasjonsvogn", "Sm\u00e5bil", "Varebil", "9-seter", "Minibil", "Stasjonsvogn"], "name": " "}}}, "title": "Andel av tiden reservert", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-1248a6033b82d97db8cf27e23207645b": [{"name": "Jaguar I-PACE", "brand": "Jaguar", "category": "SUV", "antall_reservert": 9108, "antall_mulige": 22994, "andel": 0.4}, {"name": "Lexus UX300e", "brand": "Lexus", "category": "Kombi", "antall_reservert": 869, "antall_mulige": 2640, "andel": 0.33}, {"name": "Nissan Evalia", "brand": "Nissan", "category": "Stor stasjonsvogn", "antall_reservert": 3629, "antall_mulige": 8761, "andel": 0.41}, {"name": "Nissan Leaf", "brand": "Nissan", "category": "Kombi", "antall_reservert": 2933, "antall_mulige": 8761, "andel": 0.33}, {"name": "Nissan Leaf 2", "brand": "Nissan", "category": "Kombi", "antall_reservert": 130159, "antall_mulige": 260065, "andel": 0.5}, {"name": "Peugeot 208", "brand": "Peugeot", "category": "Sm\u00e5bil", "antall_reservert": 13771, "antall_mulige": 22008, "andel": 0.63}, {"name": "Peugeot Expert 5,3 m\u00b3", "brand": "Peugeot", "category": "Varebil", "antall_reservert": 4345, "antall_mulige": 8568, "andel": 0.51}, {"name": "Peugeot Expert 6,1 m\u00b3", "brand": "Peugeot", "category": "Varebil", "antall_reservert": 14492, "antall_mulige": 38547, "andel": 0.38}, {"name": "Peugeot Partner 3,3 m\u00b3", "brand": "Peugeot", "category": "Varebil", "antall_reservert": 5865, "antall_mulige": 10969, "andel": 0.53}, {"name": "Peugeot Partner 3,9 m\u00b3", "brand": "Peugeot", "category": "Varebil", "antall_reservert": 22902, "antall_mulige": 48196, "andel": 0.48}, {"name": "Peugeot Traveller", "brand": "Peugeot", "category": "9-seter", "antall_reservert": 13941, "antall_mulige": 40756, "andel": 0.34}, {"name": "Skoda Citigo E", "brand": "Skoda", "category": "Minibil", "antall_reservert": 60217, "antall_mulige": 133114, "andel": 0.45}, {"name": "Skoda Rapid", "brand": "Skoda", "category": "Sm\u00e5bil", "antall_reservert": 3901, "antall_mulige": 6648, "andel": 0.59}, {"name": "Toyota Auris STV", "brand": "Toyota", "category": "Stasjonsvogn", "antall_reservert": 140001, "antall_mulige": 311837, "andel": 0.45}, {"name": "Toyota Corolla Kombi", "brand": "Toyota", "category": "Kombi", "antall_reservert": 76931, "antall_mulige": 173256, "andel": 0.44}, {"name": "Toyota Corolla STV", "brand": "Toyota", "category": "Stasjonsvogn", "antall_reservert": 134887, "antall_mulige": 297160, "andel": 0.45}, {"name": "Toyota Prius+", "brand": "Toyota", "category": "Stor stasjonsvogn", "antall_reservert": 33687, "antall_mulige": 78849, "andel": 0.43}, {"name": "Toyota Proace 6,1 m\u00b3", "brand": "Toyota", "category": "Varebil", "antall_reservert": 26303, "antall_mulige": 70467, "andel": 0.37}, {"name": "Toyota RAV4", "brand": "Toyota", "category": "SUV", "antall_reservert": 31919, "antall_mulige": 63962, "andel": 0.5}, {"name": "Toyota Yaris", "brand": "Toyota", "category": "Sm\u00e5bil", "antall_reservert": 337800, "antall_mulige": 696138, "andel": 0.49}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
