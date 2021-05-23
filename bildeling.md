@@ -9,7 +9,7 @@
 	- [Ulike kategorier 2](charts/bilpark_kategori_line.html)
 2. Bruk av ulike biltyper
 
-	- [Gjennomsnittlig andel reservert](charts/biltyper.html)
+	- [Gjennomsnittlig andel reservert](charts/biltyper_barplots.html)
 
 	- [Gjennomsnittlig andel reservert på ulike tidspunkt av døgnet](charts/andel_reservert_heatmap.html)
 
