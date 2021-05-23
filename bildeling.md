@@ -3,8 +3,7 @@
 1. Utvikling av bilparken 
 
 	- [Ulike bilmerker](charts/bilpark_area_line.html) 
-	- [Ulike kategorier 1](charts/bilpark_kategori_area.html)
-	- [Ulike kategorier 2](charts/bilpark_kategori_line.html)
+	- [Ulike kategorier](charts/bilpark_kategori_area.html)
 
 2. Bruk av ulike biltyper
 
