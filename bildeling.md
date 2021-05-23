@@ -13,8 +13,8 @@
 
 3. Antall og andel reservert over tid det siste året
 
-	- [Antall](antall_reservert_line_zoom.html)
-	- [Andel](andel_reservert_line_zoom.html)
-	- [Andel for ulike kategorier](andel_reservert_kategori_line_zoom.html)
-	- [Andel for ulike kategorier i mai](andel_reservert_kategori_line.html)
+	- [Antall](charts/antall_reservert_line_zoom.html)
+	- [Andel](charts/andel_reservert_line_zoom.html)
+	- [Andel for ulike kategorier](charts/andel_reservert_kategori_line_zoom.html)
+	- [Andel for ulike kategorier i mai](charts/andel_reservert_kategori_line.html)
 
