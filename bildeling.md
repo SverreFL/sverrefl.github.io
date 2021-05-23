@@ -1,13 +1,10 @@
 ---
 ---
-[bilpark_area_line.html](charts/bilpark_area_line.html) 
+1. [Utvikling av bilparken](charts/bilpark.html) 
 
-[bilpark_kategori_line.html](charts/bilpark_kategori_line.html) 
+2. [Bruk av ulike biltyper](charts/biltyper.html) 
 
-[andel_reservert_biltype_bar.html](charts/andel_reservert_biltype_bar.html) 
+3. [Gjennomsnittlig andel reservert på ulike tidspunkt av døgnet](charts/andel_reservert_heatmap.html) 
 
-[andel_reservert_biltype_line.html](charts/andel_reservert_biltype_line.html) 
+4. [Antall og andel reservert det siste året](charts/line_zoom.html) 
 
-[andel_reservert_kategori_line.html](charts/andel_reservert_kategori_line.html) 
-
-[antall_reservasjon_per_bil_per_dag_bar.html](charts/antall_reservasjon_per_bil_per_dag_bar.html) 

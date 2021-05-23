@@ -1,0 +1,108 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Panel</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://unpkg.com/tabulator-tables@4.9.3/dist/css/tabulator_simple.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.3/dist/css/alerts.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.3/dist/css/card.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.3/dist/css/dataframe.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.3/dist/css/json.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.3/dist/css/loading.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.3/dist/css/markdown.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.3/dist/css/widgets.css" type="text/css" />
+        <style>
+            
+                    .bk.pn-loading.arcs:before {
+                      background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBzdHlsZT0ibWFyZ2luOiBhdXRvOyBiYWNrZ3JvdW5kOiBub25lOyBkaXNwbGF5OiBibG9jazsgc2hhcGUtcmVuZGVyaW5nOiBhdXRvOyIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIj4gIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjMyIiBzdHJva2Utd2lkdGg9IjgiIHN0cm9rZT0iI2MzYzNjMyIgc3Ryb2tlLWRhc2hhcnJheT0iNTAuMjY1NDgyNDU3NDM2NjkgNTAuMjY1NDgyNDU3NDM2NjkiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+ICAgIDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgZHVyPSIxcyIga2V5VGltZXM9IjA7MSIgdmFsdWVzPSIwIDUwIDUwOzM2MCA1MCA1MCI+PC9hbmltYXRlVHJhbnNmb3JtPiAgPC9jaXJjbGU+PC9zdmc+")
+                    }
+                    
+        </style>
+        
+        
+          
+        <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.9.3/dist/js/tabulator.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/moment@2.27.0/moment.js"></script>
+        <script type="text/javascript" src="static/extensions/panel/bundled/vegaplot/npm\vega@5"></script>
+        <script type="text/javascript" src="static/extensions/panel/bundled/vegaplot/npm\vega-lite@4"></script>
+        <script type="text/javascript" src="static/extensions/panel/bundled/vegaplot/npm\vega-embed@6"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.2.min.js"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.3.2.min.js"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.3.2.min.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/@holoviz/panel@^0.11.3/dist/panel.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="ce7d11ad-9b38-4a2f-a494-dedb4f431005" data-root-id="2305"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2310">
+          {"433b4123-66c4-480e-bd83-633e7c00be32":{"defs":[],"roots":{"references":[{"attributes":{"css_classes":["markdown"],"margin":[5,5,5,5],"name":"Markdown00437","text":"&amp;lt;h4&amp;gt;19. mai 2020 - 19. mai 2021&amp;lt;/h4&amp;gt;"},"id":"2306","type":"panel.models.markup.HTML"},{"attributes":{"data":{"$schema":"https://vega.github.io/schema/vega-lite/v4.8.1.json","config":{"view":{"continuousHeight":300,"continuousWidth":400}},"data":{"name":"data-f0092a36b6e556166c5d8c57fca87dea"},"datasets":{},"vconcat":[{"layer":[{"encoding":{"x":{"axis":{"format":"%e. %b","labelAngle":0,"title":null},"field":"tid","scale":{"domain":{"selection":"selector001"}},"type":"temporal"},"y":{"axis":{"title":null},"field":"antall_reservert","type":"quantitative"}},"height":200,"mark":"line","width":700},{"encoding":{"x":{"axis":{"format":"%e. %b","labelAngle":0,"title":null},"field":"tid","scale":{"domain":{"selection":"selector001"}},"type":"temporal"},"y":{"axis":{"title":null},"field":"antall_biler","type":"quantitative"}},"height":200,"mark":"line","title":"Antall reserverte biler","width":700},{"encoding":{"color":{"field":"helg","legend":{"labelFontSize":14,"title":null},"scale":{"domain":["Hverdag","Helg"],"range":["steelblue","orange"]},"type":"nominal"},"x":{"axis":{"format":"%e. %b","labelAngle":0,"title":null},"field":"tid","scale":{"domain":{"selection":"selector001"}},"type":"temporal"},"y":{"axis":{"title":null},"field":"antall_reservert","type":"quantitative"}},"height":200,"mark":{"size":30,"type":"circle"},"width":700}]},{"encoding":{"x":{"field":"tid","type":"temporal"},"y":{"axis":{"title":null},"field":"antall_reservert","type":"quantitative"}},"height":100,"mark":"line","selection":{"selector001":{"encodings":["x"],"type":"interval"}},"width":700}]},"height":322,"margin":[50,50,50,50],"width":422},"id":"2307","type":"panel.models.vega.VegaPlot"},{"attributes":{"data":{"$schema":"https://vega.github.io/schema/vega-lite/v4.8.1.json","config":{"view":{"continuousHeight":300,"continuousWidth":400}},"data":{"name":"data-12dfa24710da273ac456ddc0d76cbda7"},"datasets":{},"title":"Andel reservert","vconcat":[{"layer":[{"encoding":{"x":{"axis":{"format":"%e. %b","labelAngle":0,"title":null},"field":"tid","scale":{"domain":{"selection":"selector001"}},"type":"temporal"},"y":{"axis":{"format":"%","title":null},"field":"andel_reservert","type":"quantitative"}},"height":200,"mark":"line","selection":{"velg":{"bind":{"input":"select","options":["9-seter","Kombi","Minibil","SUV","Sm\u00e5bil","Stasjonsvogn","Stor stasjonsvogn","Varebil"]},"fields":["category"],"init":{"category":"9-seter"},"type":"single"}},"transform":[{"filter":{"selection":"velg"}}],"width":700},{"encoding":{"color":{"field":"helg","legend":{"labelFontSize":14,"title":null},"scale":{"domain":["Hverdag","Helg"],"range":["steelblue","orange"]},"type":"nominal"},"x":{"axis":{"format":"%e. %b","labelAngle":0,"title":null},"field":"tid","scale":{"domain":{"selection":"selector001"}},"type":"temporal"},"y":{"axis":{"format":"%","title":null},"field":"andel_reservert","type":"quantitative"}},"height":200,"mark":{"size":30,"type":"circle"},"transform":[{"filter":{"selection":"velg"}}],"width":700}]},{"encoding":{"x":{"field":"tid","type":"temporal"},"y":{"axis":{"format":"%","title":null},"field":"andel_reservert","type":"quantitative"}},"height":100,"mark":"line","selection":{"selector001":{"encodings":["x"],"type":"interval"},"velg":{"bind":{"input":"select","options":["9-seter","Kombi","Minibil","SUV","Sm\u00e5bil","Stasjonsvogn","Stor stasjonsvogn","Varebil"]},"fields":["category"],"init":{"category":"9-seter"},"type":"single"}},"transform":[{"filter":{"selection":"velg"}}],"width":700}]},"height":322,"margin":[50,50,50,50],"width":422},"id":"2309","type":"panel.models.vega.VegaPlot"},{"attributes":{"data":{"$schema":"https://vega.github.io/schema/vega-lite/v4.8.1.json","config":{"view":{"continuousHeight":300,"continuousWidth":400}},"data":{"name":"data-f0092a36b6e556166c5d8c57fca87dea"},"datasets":{},"title":"Andel reservert","vconcat":[{"layer":[{"encoding":{"x":{"axis":{"format":"%e. %b","labelAngle":0,"title":null},"field":"tid","scale":{"domain":{"selection":"selector001"}},"type":"temporal"},"y":{"axis":{"format":"%","title":null},"field":"andel_reservert","type":"quantitative"}},"height":200,"mark":"line","width":700},{"encoding":{"color":{"field":"helg","legend":{"labelFontSize":14,"title":null},"scale":{"domain":["Hverdag","Helg"],"range":["steelblue","orange"]},"type":"nominal"},"x":{"axis":{"format":"%e. %b","labelAngle":0,"title":null},"field":"tid","scale":{"domain":{"selection":"selector001"}},"type":"temporal"},"y":{"axis":{"format":"%","title":null},"field":"andel_reservert","type":"quantitative"}},"height":200,"mark":{"size":30,"type":"circle"},"width":700}]},{"encoding":{"x":{"field":"tid","type":"temporal"},"y":{"axis":{"format":"%","title":null},"field":"andel_reservert","type":"quantitative"}},"height":100,"mark":"line","selection":{"selector001":{"encodings":["x"],"type":"interval"}},"width":700}]},"height":322,"margin":[50,50,50,50],"width":422},"id":"2308","type":"panel.models.vega.VegaPlot"},{"attributes":{"children":[{"id":"2306"},{"id":"2307"},{"id":"2308"},{"id":"2309"}],"margin":[0,0,0,0],"name":"Column00439"},"id":"2305","type":"Column"}],"root_ids":["2305"]},"title":"Bokeh Application","version":"2.3.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2310').textContent;
+                  var render_items = [{"docid":"433b4123-66c4-480e-bd83-633e7c00be32","root_ids":["2305"],"roots":{"2305":"ce7d11ad-9b38-4a2f-a494-dedb4f431005"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

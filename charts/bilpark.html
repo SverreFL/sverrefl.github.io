@@ -1,0 +1,108 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Panel</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://unpkg.com/tabulator-tables@4.9.3/dist/css/tabulator_simple.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.3/dist/css/alerts.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.3/dist/css/card.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.3/dist/css/dataframe.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.3/dist/css/json.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.3/dist/css/loading.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.3/dist/css/markdown.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.3/dist/css/widgets.css" type="text/css" />
+        <style>
+            
+                    .bk.pn-loading.arcs:before {
+                      background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBzdHlsZT0ibWFyZ2luOiBhdXRvOyBiYWNrZ3JvdW5kOiBub25lOyBkaXNwbGF5OiBibG9jazsgc2hhcGUtcmVuZGVyaW5nOiBhdXRvOyIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIj4gIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjMyIiBzdHJva2Utd2lkdGg9IjgiIHN0cm9rZT0iI2MzYzNjMyIgc3Ryb2tlLWRhc2hhcnJheT0iNTAuMjY1NDgyNDU3NDM2NjkgNTAuMjY1NDgyNDU3NDM2NjkiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+ICAgIDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgZHVyPSIxcyIga2V5VGltZXM9IjA7MSIgdmFsdWVzPSIwIDUwIDUwOzM2MCA1MCA1MCI+PC9hbmltYXRlVHJhbnNmb3JtPiAgPC9jaXJjbGU+PC9zdmc+")
+                    }
+                    
+        </style>
+        
+        
+          
+        <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.9.3/dist/js/tabulator.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/moment@2.27.0/moment.js"></script>
+        <script type="text/javascript" src="static/extensions/panel/bundled/vegaplot/npm\vega@5"></script>
+        <script type="text/javascript" src="static/extensions/panel/bundled/vegaplot/npm\vega-lite@4"></script>
+        <script type="text/javascript" src="static/extensions/panel/bundled/vegaplot/npm\vega-embed@6"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.2.min.js"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.3.2.min.js"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.3.2.min.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/@holoviz/panel@^0.11.3/dist/panel.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="f3c59c0e-31fd-4456-9d9d-8fd750324b66" data-root-id="1991"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1996">
+          {"f59b629a-a8f0-46ff-92d3-37fbf991770e":{"defs":[],"roots":{"references":[{"attributes":{"data":{"$schema":"https://vega.github.io/schema/vega-lite/v4.8.1.json","config":{"view":{"continuousHeight":300,"continuousWidth":400}},"data":{"name":"data-6b1ae9817a576b74fda3a1d5f42be3fe"},"datasets":{},"encoding":{"color":{"field":"category","legend":{"labelFontSize":12,"symbolStrokeWidth":4},"title":null,"type":"nominal"},"opacity":{"condition":{"selection":"selector001","value":1},"value":0.2},"tooltip":{"field":"category","type":"nominal"},"x":{"axis":{"title":null},"field":"index","type":"temporal"},"y":{"aggregate":"sum","axis":{"title":null},"field":"antall","type":"quantitative"}},"mark":"line","selection":{"selector001":{"bind":"legend","encodings":["color"],"type":"multi"}},"title":"Antall biler i ulike kategorier"},"height":322,"margin":[5,5,30,5],"width":422},"id":"1995","type":"panel.models.vega.VegaPlot"},{"attributes":{"children":[{"id":"1992"},{"id":"1993"},{"id":"1994"},{"id":"1995"}],"margin":[0,0,0,0],"name":"Column00368"},"id":"1991","type":"Column"},{"attributes":{"data":{"$schema":"https://vega.github.io/schema/vega-lite/v4.8.1.json","config":{"view":{"continuousHeight":300,"continuousWidth":400}},"data":{"name":"data-6b1ae9817a576b74fda3a1d5f42be3fe"},"datasets":{},"hconcat":[{"encoding":{"color":{"field":"category","type":"nominal"},"tooltip":{"field":"category","type":"nominal"},"x":{"axis":{"title":null},"field":"index","type":"temporal"},"y":{"aggregate":"sum","axis":{"title":"Antall biler"},"field":"antall","type":"quantitative"}},"height":250,"mark":"area","selection":{"selector001":{"fields":["category"],"on":"click","type":"single"}}},{"encoding":{"color":{"field":"category","type":"nominal"},"detail":{"field":"name","type":"nominal"},"tooltip":[{"field":"name","type":"nominal"}],"x":{"axis":{"title":null},"field":"index","type":"temporal"},"y":{"axis":{"title":null},"field":"antall","type":"quantitative"}},"height":250,"mark":"line","selection":{"selector002":{"bind":"scales","encodings":["x","y"],"type":"interval"}},"transform":[{"filter":{"selection":"selector001"}}]}],"title":"Antall biler i ulike kategorier"},"height":322,"margin":[5,5,30,5],"width":422},"id":"1994","type":"panel.models.vega.VegaPlot"},{"attributes":{"css_classes":["markdown"],"margin":[5,5,5,5],"name":"Markdown00366","text":"&amp;lt;h4&amp;gt;19. mai 2020 - 19. mai 2021&amp;lt;/h4&amp;gt;"},"id":"1992","type":"panel.models.markup.HTML"},{"attributes":{"data":{"$schema":"https://vega.github.io/schema/vega-lite/v4.8.1.json","config":{"view":{"continuousHeight":300,"continuousWidth":400}},"data":{"name":"data-6b1ae9817a576b74fda3a1d5f42be3fe"},"datasets":{},"hconcat":[{"encoding":{"color":{"field":"merke","scale":{"domain":["Jaguar","Lexus","Nissan","Peugeot","Skoda","Toyota"],"range":["#5778a4","#f1a2a9","#e49444","#d1615d","#85b6b2","#6a9f58"]},"type":"nominal"},"tooltip":{"field":"merke","type":"nominal"},"x":{"axis":{"title":null},"field":"index","type":"temporal"},"y":{"aggregate":"sum","axis":{"title":"Antall biler"},"field":"antall","type":"quantitative"}},"height":250,"mark":"area","selection":{"selector001":{"fields":["merke"],"on":"click","type":"single"}}},{"encoding":{"color":{"field":"merke","scale":{"domain":["Jaguar","Lexus","Nissan","Peugeot","Skoda","Toyota"],"range":["#5778a4","#f1a2a9","#e49444","#d1615d","#85b6b2","#6a9f58"]},"type":"nominal"},"detail":{"field":"name","type":"nominal"},"tooltip":[{"field":"name","type":"nominal"},{"field":"category","type":"nominal"}],"x":{"axis":{"title":null},"field":"index","type":"temporal"},"y":{"axis":{"title":null},"field":"antall","type":"quantitative"}},"height":250,"mark":"line","selection":{"selector002":{"bind":"scales","encodings":["x","y"],"type":"interval"}},"transform":[{"filter":{"selection":"selector001"}}]}],"title":"Antallet biler fra ulike bilmerker"},"height":322,"margin":[5,5,30,5],"width":422},"id":"1993","type":"panel.models.vega.VegaPlot"}],"root_ids":["1991"]},"title":"Bokeh Application","version":"2.3.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1996').textContent;
+                  var render_items = [{"docid":"f59b629a-a8f0-46ff-92d3-37fbf991770e","root_ids":["1991"],"roots":{"1991":"f3c59c0e-31fd-4456-9d9d-8fd750324b66"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
