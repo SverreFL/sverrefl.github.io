@@ -5,6 +5,7 @@
 	- [Ulike bilmerker](charts/bilpark_area_line.html) 
 	- [Ulike kategorier 1](charts/bilpark_kategori_area.html)
 	- [Ulike kategorier 2](charts/bilpark_kategori_line.html)
+
 2. Bruk av ulike biltyper
 
 	- [Gjennomsnittlig andel reservert](charts/biltyper_barplots.html)
