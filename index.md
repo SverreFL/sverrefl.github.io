@@ -9,5 +9,5 @@ Jeg har laget to webapplikasjoner som visualiserer [data](https://bergenbysykkel
 - [Applikasjon i Panel](https://hypotesetest.herokuapp.com) som interkativt viser hvilke faktorer som påvirker styrken til en hypotesetest om gjennomsnittet i en normalfordeling med kjent varians. 
 
 #### Interaktive visualiseringer i Altair
-Jeg har også laget noen [interaktive figurer](bildeleringen) i [Altair](https://altair-viz.github.io/) med data fra [Bildeleringen](https://bildeleringen.no/).
+Jeg har også laget noen [interaktive figurer](bildeling) med data fra [Bildeleringen](https://bildeleringen.no/).
 
