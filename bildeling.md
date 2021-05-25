@@ -13,4 +13,4 @@
 	- [Andel for ulike kategorier i mai](charts/andel_reservert_kategori_line.html)
 4. NY: Gjennomsnittlig antall timer reservert i løpet av dagen
 	- [Samlet for hverdag og helg](charts/bar_line_andel.html)
-	- [Hverdag og helg separat](bar_line_reservert_helg.html)
+	- [Hverdag og helg separat](charts/bar_line_reservert_helg.html)
