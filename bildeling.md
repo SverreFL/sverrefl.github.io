@@ -11,6 +11,7 @@
 	- [Andel](charts/andel_reservert_line_zoom.html)
 	- [Andel for ulike kategorier](charts/andel_reservert_kategori_line_zoom.html)
 	- [Andel for ulike kategorier i mai](charts/andel_reservert_kategori_line.html)
-4. NY: Gjennomsnittlig antall timer reservert i løpet av dagen
+4. Gjennomsnittlig antall timer reservert i løpet av dagen
 	- [Samlet for hverdag og helg](charts/bar_line_andel.html)
 	- [Hverdag og helg separat](charts/bar_line_reservert_helg.html)
+	- [Ikke fordelt på biltype..](charts/bar_line)
