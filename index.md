@@ -11,3 +11,5 @@ Jeg har laget to webapplikasjoner som visualiserer [data](https://bergenbysykkel
 #### Interaktive visualiseringer i Altair
 Jeg har også laget noen [interaktive figurer](bildeling) med data fra [Bildeleringen](https://bildeleringen.no/).
 
+test
+
