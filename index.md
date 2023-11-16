@@ -2,14 +2,18 @@
 title: Prosjekter
 ---
 ### Prosjekter
-#### Webapplikasjoner
-Jeg har laget to webapplikasjoner som visualiserer [data](https://bergenbysykkel.no/apne-data/historisk) fra i overkant av én million reiser med Bergen Bysykkel i 2020. Begge appene tar utgangspunkt i et interaktivt kart fra [ipyleaflet](https://ipyleaflet.readthedocs.io/en/latest/). Den éne appen er laget med [Panel](https://panel.holoviz.org/) som er et veldig fleksibelt verktøy for å lage interaktive dashboard i Python. Den andre appen er laget med [Voilà](https://voila.readthedocs.io/en/stable/using.html). Jeg også laget en pedagogisk webappplikasjon om hypotesetesting. Merk at de kan bruke litt tid på å laste inn.
-- [Applikasjon i Panel](https://bysykkel-panel.herokuapp.com) som for hver stasjon viser gjennomsnitllig antall reiser til og fra for hver time av dagen.
-- [Applikasjon i Voilà](https://bysykkel-voila.herokuapp.com) som for hver stasjon viser antall reiser og gjennomsnittlig reisetid til alle de andre stasjonene.
-- [Applikasjon i Panel](https://hypotesetest.herokuapp.com) som interkativt viser hvilke faktorer som påvirker styrken til en hypotesetest om gjennomsnittet i en normalfordeling med kjent varians. 
+#### Webapplikasjon
+
+Jeg har en liten Shiny-applikasjon som visualiserer trafikkmønster til Bergen Bysykkel i 2020.
+
+[Sjekk den ut!](https://hcxzwp-sverre-langaas.shinyapps.io/bysykkel/)
+
+Jeg hadde tidligere noen applikasjoner som var laget i Python og publisert gjennom [Heroku](https://www.heroku.com/), men de
+pga ny betalingsløsning er det ikke lenger på nett.
+
 
 #### Interaktive visualiseringer i Altair
 Jeg har også laget noen [interaktive figurer](bildeling) med data fra [Bildeleringen](https://bildeleringen.no/).
 
-test
+
 
